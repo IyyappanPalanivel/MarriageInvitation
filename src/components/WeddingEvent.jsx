@@ -14,7 +14,7 @@ const WeddingEvent = () => {
                 backgroundSize:'cover'
             }}
         >
-            <div className='py-16 flex flex-col items-center justify-center'>
+            <div className='py-16 flex flex-col items-center justify-center text-center'>
                 <h2 className='text-black font-bold text-3xl uppercase'>The Wedding Event</h2>
                 <p className='italic text-xl py-2'>If you have only one smile in you give it to the people you love..</p>
                 <img className='h-10 w-40 my-4' src={leaves} />

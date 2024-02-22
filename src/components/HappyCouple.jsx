@@ -5,7 +5,7 @@ import leaves from '../assets/leaves.svg'
 const HappyCouple = () => {
     return (
         <div className='max-w-screen-2xl bg-neutralWhite p-20'>
-            <div className='flex flex-col items-center justify-center'>
+            <div className='flex flex-col items-center justify-center text-center'>
                 <h2 className='text-black font-bold text-3xl uppercase'>The Happy Couple</h2>
                 <p className='italic text-xl text-neutralBlue py-2'>A happy marriage is the union of two good forgivers.</p>
                 <img className='h-10 w-40 my-4' src={leaves} />
