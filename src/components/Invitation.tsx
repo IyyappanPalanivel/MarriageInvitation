@@ -9,6 +9,8 @@ const Invitation = () => {
             className="max-w-screen-2xl flex min-h-screen bg-cover justify-center items-center"
             style={{
                 backgroundImage: `url(${tulip_bg})`,
+                backgroundPosition:'center',
+                backgroundSize:'cover'
             }}
         >
             <div className='px-4 lg:px-14 py-44 flex justify-around w-full flex-col md:flex-row items-center gap-8'>

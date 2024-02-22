@@ -10,6 +10,8 @@ const WeddingEvent = () => {
             className="max-w-screen-2xl min-h-screen bg-cover px-4"
             style={{
                 backgroundImage: `url(${tulip_bg})`,
+                backgroundPosition:'center',
+                backgroundSize:'cover'
             }}
         >
             <div className='py-16 flex flex-col items-center justify-center'>
