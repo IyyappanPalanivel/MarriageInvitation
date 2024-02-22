@@ -2,13 +2,14 @@ import React from 'react';
 import leaves from '../assets/leaves.svg';
 import calender from '../assets/calender.png';
 import location from '../assets/location.png';
+import tulip_bg from '../assets/tulip_bg.jpg';
 
 const WeddingEvent = () => {
     return (
         <div
             className="max-w-screen-2xl min-h-screen bg-cover px-4"
             style={{
-                backgroundImage: "url('/src/assets/tulip_bg.jpg')",
+                backgroundImage: `url(${tulip_bg})`,
             }}
         >
             <div className='py-16 flex flex-col items-center justify-center'>

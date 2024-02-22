@@ -6,7 +6,7 @@ const Invitation = () => {
         <div
             className="max-w-screen-2xl flex min-h-screen bg-cover"
             style={{
-                backgroundImage: "url({tulpip_bg})",
+                backgroundImage: `url(${tulip_bg})`,
             }}
         >
             <div className='px-4 lg:px-14 py-44'>
