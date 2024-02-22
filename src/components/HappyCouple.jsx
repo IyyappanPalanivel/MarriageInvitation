@@ -1,4 +1,6 @@
 import React from 'react';
+import weds from '../assets/weds.jpg'
+import leaves from '../assets/leaves.svg'
 
 const HappyCouple = () => {
     return (
@@ -6,10 +8,10 @@ const HappyCouple = () => {
             <div className='flex flex-col items-center justify-center'>
                 <h2 className='text-black font-bold text-3xl uppercase'>The Happy Couple</h2>
                 <p className='italic text-xl text-neutralBlue py-2'>A happy marriage is the union of two good forgivers.</p>
-                <img className='h-10 w-40 my-4' src='/src/assets/leaves.svg' />
+                <img className='h-10 w-40 my-4' src={leaves} />
 
                 <div className='border-neutralBlue bg-white border border-opacity-25 mt-10'>
-                    <img className='h-60 w-60' src='/src/assets/weds.jpg' />
+                    <img className='h-60 w-60' src={weds.jpg} />
                 </div>
             </div>
 

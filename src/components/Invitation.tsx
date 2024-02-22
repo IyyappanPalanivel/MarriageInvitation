@@ -1,11 +1,12 @@
 import React from 'react';
+import tulip_bg from '../assets/tulip_bg.jpg';
 
 const Invitation = () => {
     return (
         <div
             className="max-w-screen-2xl flex min-h-screen bg-cover"
             style={{
-                backgroundImage: "url('/src/assets/tulip_bg.jpg')",
+                backgroundImage: "url({tulpip_bg})",
             }}
         >
             <div className='px-4 lg:px-14 py-44'>
