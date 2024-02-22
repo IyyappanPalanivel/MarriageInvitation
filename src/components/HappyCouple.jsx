@@ -1,5 +1,5 @@
 import React from 'react';
-import weds from '../assets/weds.jpg'
+import rloves from '../assets/rloves.jpg'
 import leaves from '../assets/leaves.svg'
 
 const HappyCouple = () => {
@@ -11,7 +11,7 @@ const HappyCouple = () => {
                 <img className='h-10 w-40 my-4' src={leaves} />
 
                 <div className='border-neutralBlue bg-white border border-opacity-25 mt-10'>
-                    <img className='h-60 w-60' src={weds.jpg} />
+                    <img className='h-60 w-60' src={rloves} />
                 </div>
             </div>
 
