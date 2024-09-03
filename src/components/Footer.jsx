@@ -8,15 +8,15 @@ const Footer = () => {
     };
 
     return (
-        <div className='w-full bg-neutralBlue py-8 flex-col items-center text-center'>
+        <div className='w-full bg-neutralBlue py-4 flex-col items-center text-center'>
             {/* <p className='italic'> © 2024 |  <a className='underline text-neutralWhite left-1'>Grey Matrix</a>
             </p> */}
             {/* Grey Matrix */}
             <div className='items-center justify-center text-center' onClick={handleGreyMatrixClick}>
-                <div className='flex items-center justify-center mt-1 md:mt'>
+                <div className='flex items-center justify-center'>
                     <img src={grey_matrix} className='w-8 h-8 self-center' />
                 </div>
-                <p className="text-xs font-lato font-extrabold tracking-[1px] text-white sm:order-first">Designed by Grey Matrix</p>
+                <p className="tracking-[1px] italic text-neutralWhite mt-1">Designed by Grey Matrix</p>
             </div>
         </div>
     );
